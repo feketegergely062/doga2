@@ -50,7 +50,7 @@ public class App extends Application {
 
         button.setOnAction(e ->{
             Double d = Double.valueOf(asiField.getText());
-            Double res = (d*d*d) / 2.82842712475;
+            Double res = 3*d / 2.82842712475;
             String str = Double.toString(res);
             Label kiir = new Label(str);
             hb1.getChildren().add(kiir);
