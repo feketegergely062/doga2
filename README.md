@@ -4,8 +4,8 @@ File: Readme.md
 Author: Fekete Gergely
 Copyright: 2023, Fekete Gergely
 Group: Szoft I/1/N
-Date: 2023-04-04
-Github: https://github.com/feketegergely062/F_G-dolgozat
+Date: 2023-04-18
+Github: https://github.com/feketegergely062/doga2
 Licenc: GNU GPL
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
