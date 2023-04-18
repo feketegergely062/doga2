@@ -38,8 +38,8 @@ public class App extends Application {
         TextField asiField = new TextField();
         hb2.getChildren().addAll(asiField);
         Label label1 = new Label("add meg a kocka átlóját");
-        Label info = new Label("Fekete Gergely , SZ/i/n, 2023.04.18");
-        Button button = new Button("számít");
+        Label info = new Label("Fekete Gergely , 2023.04.18");
+        Button button = new Button("eredmény");
         vb1.getChildren().add(info);
         vb1.getChildren().add(label1);
         vb1.getChildren().add(asiField);
@@ -52,8 +52,8 @@ public class App extends Application {
             Double d = Double.valueOf(asiField.getText());
             Double res = 3*d / 2.82842712475;
             String str = Double.toString(res);
-            Label kiir = new Label(str);
-            hb1.getChildren().add(kiir);
+            Label eredmeny = new Label(str);
+            hb1.getChildren().add(eredmeny);
             
         });
 
